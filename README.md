@@ -10,7 +10,7 @@ mongodb: https://www.mongodb.org/<br>
 2) install dependences:<br>
 npm install
 
-3) start the mongodb:
+3) start the mongodb:<br>
 cd C:\Program Files\MongoDB\Server\3.0\bin<br>
 mongod --dbpath "D:\MongoDB\data"<br>
 
