@@ -1,6 +1,10 @@
 # MEAN_demo_student
 A demo show how to write a simple CRUD web application base on student model. (angularjs + express + nodejs + mongodb)
 
+# Interface:
+
+![image](https://github.com/qinyang1980/MEAN_demo_student/blob/master/screenshot.png)
+
 # How to run this demo:
 1) install<br>
 nodejs: https://nodejs.org/en/<br>
