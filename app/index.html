@@ -1,0 +1,31 @@
+<!doctype html>
+<html ng-app="app">
+<head>
+  <meta charset="utf-8">
+  <title>名册</title>
+</head>
+<body ng-controller="MainCtrl">
+  <table border="1">
+    <tr><th>ID</th><th>姓名</th><th>年龄</th><th>地址</th></tr>
+    <tr ng-controller="DetailCtrl" ng-repeat="student in students">
+      <td>{{student._id}}</td>
+      <td><input ng-model="student.name"></td>
+      <td><input ng-model="student.age"></td>
+      <td><input ng-model="student.address"></td>
+      <td><button ng-click="update()">更新</button></td>
+      <td><button ng-click="delete()">删除</button></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td><input ng-model="new_student.name"></td>
+      <td><input ng-model="new_student.age"></td>
+      <td><input ng-model="new_student.address"></td>
+      <td><button ng-click="add()">添加</button></td>
+      <td>&nbsp;</td>
+    </tr>
+  </table>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+  <script src="scripts/student.js"></script>
+  <script src="scripts/controller.js"></script>
+</body>
+</html>

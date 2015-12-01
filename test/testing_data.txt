@@ -1,0 +1,4 @@
+{ "name": "Andy.Qin", "age": 34, "address": "浦东新区春泉路" }
+{ "name": "张三", "age": 20, "address": "浦东新区东昌路" }
+{ "name": "李四", "age": 28, "address": "浦东新区张江" }
+{ "name": "王五", "age": 32, "address": "浦东新区青浦" }
